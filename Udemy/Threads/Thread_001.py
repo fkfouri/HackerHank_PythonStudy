@@ -8,6 +8,7 @@ from threading import Thread    #biblioteca de Thread
 import time                     #para colocar sleep em alguns momentos
 
 
+#as tarefas nao sao executadas necessariamente na sequencia
 def func(i):
     print('Iniciando a thread %d' % i)
     time.sleep(2)
