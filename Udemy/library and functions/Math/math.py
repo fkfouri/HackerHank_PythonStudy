@@ -1,6 +1,8 @@
 
 '''
 https://docs.python.org/3/library/math.html
+
+Destaque que neste exemplo esta sendo importado toda biblioteca de Math
 '''
 import math
 
