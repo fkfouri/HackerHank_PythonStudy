@@ -29,5 +29,11 @@ dict2 = {"john":466, "peter":45}
 
 
 s = {1, 2, 4, 3}
-s[3] = 5,
 print(max(s), len(s))
+
+
+import datetime as datetime
+t1 = datetime.datetime.now()
+t2 =  datetime.timedelta(seconds=5)
+t1+t2
+print(t1,' <> ',  t2,' <> ', t1+t2)
