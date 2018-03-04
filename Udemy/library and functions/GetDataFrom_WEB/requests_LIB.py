@@ -10,4 +10,6 @@ r = requests.get(url)
 print(r.status_code)
 wikitext = r.content.decode('utf-8')
 
-wikitext.find('Did you know')
+print(wikitext.find('Did you know'))
+
+print(wikitext)
