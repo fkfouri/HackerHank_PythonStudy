@@ -9,3 +9,5 @@ print(t[3])
 #print(t[8])        #=> Erro, index out of range
 
 
+my_tuple = (123, 'Mike')
+print(my_tuple * 2)
